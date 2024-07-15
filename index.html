@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #4682B4;
+        }
+
+        .menu {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            justify-content: center;/centraliza o menu/
+            gap: 20px;
+        }
+
+        .foto_minha {
+            grid-column-start: 1;
+            grid-column-end: 3;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+
+        }
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #4682B4;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #4682B4;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 6px 8px;
+            border: solid #4682B4 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #4682B4;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 600px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Portfólio Pessoal</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="educacao.html">Educação</a></li>
+            <li><a href="trabalhos.html">Meus Trabalhos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+    <div class="container wrapper">
+        <div class="container wrapper">
+            <aside class="foto_minha">
+                <img src="foto_minha.jpeg" width="200" height="200"  alt="Foto de Guilherme Denk">
+                <div class="Infos">
+                    <p><strong>Nome:</strong>Guilherme Willy Denk</p>
+                    <p><strong>Data de nascimento:</strong>19/03/2001</p>
+                    <p><strong>Idade:</strong>24 anos</p>
+                </div>
+    
+            </aside>
+        <section class="principal">
+            <h1>
+                Quem sou eu?
+            </h1>
+          <p>Meu nome é Guilherme Willy Denk, sou natural de Mafra, Santa Catarina,
+             nasci no dia 19 de março de 2001, tenho 24 anos e sou filho de Jorge Alberto Denk e Maria 
+            Elisete Vaneski.</p>
+          <p>Sou casado com a Eliete(moça da foto), estamos juntos a quase anos, e temos uma gata chamada Kira.</p>
+
+          <h1>
+            Meu trabalho
+          </h1>
+          <p>Trabalho atualmente na Nidec GA, como assistente administrativo, 
+            na área de recebimento fiscal, trabalho na empresa desde 2020.</p>
+          <p>Já fui estágiario na EEB Virgílio Várzea, e menor aprendiz na JBS Seara.
+
+          </p>
+          <h1>Meus Hobbies</h1>
+          <p>Entre minhas atividades favoritas estão jogar videogame e assistir futebol, 
+            sendo torcedor fanático do Flamengo. Gosto de passar meu tempo livre
+            assitindo séries ou animes.</p>
+        <p>Sou extremamente aficcionado por Harry Potter, tendo assistido diversas vezes todos os filmes e lido todos os livros.
+          </p>
+
+          <h1>Futuro</h1>
+          <p>Pensando no futuro, após o termino do curso, buscarei mais especialização e cursos na área de HTML, visto 
+            que foi a linguagem com a qual mais gostei e tive afinidade.</p>
+            <p>Penso também em seguir os passos do meu pai na carreira militar, tendo como objetico principal a Polícia Rodoviária Federal(PRF).</p>
+        </section>
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido como trabalho prático</h1>
+    </footer>
+    </div>
+</body>
+
+</html>

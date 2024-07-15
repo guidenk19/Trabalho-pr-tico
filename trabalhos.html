@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #4682B4;
+        }
+
+        .menu {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            justify-content: center;/centraliza o menu/
+            gap: 20px;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+
+        }
+
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #4682B4;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 6px 8px;
+            border: solid #4682B4 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #4682B4;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 600px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Portfólio Pessoal</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="educacao.html">Educação</a></li>
+            <li><a href="trabalhos.html">Meus Trabalhos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+        <section class="lista_trabalhos1">
+         <ul style="list-style-type: square; color: #4682B4;">
+            <li><a href="tabela simples.html">Tabela Simples</a></li><br><br>
+            <li><a href="Tabela Complexa.html">Tabela Complexa</a></li><br><br>
+            <li><a href="Eletricista.html">Eletricista</a></li><br><br>
+            <li><a href="Formulários.html">Formulários</a></li><br><br>
+            <li><a href="area.html">Área do Circulo</a></li><br><br>
+            <li><a href="exe3.html">Porcentagem de Homens e Mulheres</a></li><br><br>
+            <li><a href="exe4.html">Quantidade de números pares e ímpares </a></li><br><br>
+            <li><a href="exemplo2.html">Sexo Masculino e Feminino</a></li>
+
+         </ul>
+        </section>
+<br><br><br>
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido como trabalho prático</h1>
+    </footer>
+    </div>
+</body>
+
+</html>

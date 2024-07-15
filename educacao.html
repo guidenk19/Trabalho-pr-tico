@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portfólio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .container {
+            display: grid;
+        }
+
+        header {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #4682B4;
+        }
+
+        .menu {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            justify-content: center;/centraliza o menu/
+            gap: 20px;
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+
+        }
+
+
+        footer {
+            grid-column-start: 1;
+            grid-column-end: 12;
+            background-color: #4682B4;
+            color: white;
+            text-align: center;
+        }
+
+        ul {
+            list-style-type: none;
+            color: #506E6A;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 6px 8px;
+            border: solid #4682B4 1px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover {
+            background-color: #4682B4;
+            color: white;
+        }
+
+        /* media query para dispositivos móveis */
+        @media only screen and (max-width: 600px) {
+            .wrapper {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+
+
+            .principal {
+                grid-column-start: 1;
+                grid-column-end: 1;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Portfólio Pessoal</h1>
+        <br>
+
+    </header>
+    <nav class="container menu">
+        <ul>
+            <li><a href="index.html">Sobre Mim</a></li>
+            <li><a href="educacao.html">Educação</a></li>
+            <li><a href="trabalhos.html">Meus Trabalhos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+        <section class="principal">
+            <h1>
+                Escolaridade
+            </h1>
+            <p><strong>Ensino Fundamental:</strong>Centro Educativo Itaiópolis (Completo.)</p>
+            <p><strong>Ensino Médio:</strong>EEB Vírgilio Várzea (Completo)</p>
+            <p><strong>Ensino Superior:</strong>Uninter (Em Curso)</p>
+
+            <h1>Cursos</h1>
+            <p>Aprendizagem Industrial Assistente Administrativo - Senai</p>
+            <p>Informática Básica - Prefeitura Municipal de Itaiópolis</p>
+            <p>Língua Estrangeira Inglês - Influx</p>
+
+            <h1>Idiomas</h1>
+            <p>Português - Nativo</p>
+            <p>Inglês - Fluente</p>
+        </section>
+
+    </div>
+    <footer class="container">
+        <h1>Desenvolvido como trabalho prático</h1>
+    </footer>
+    </div>
+</body>
+
+</html>
